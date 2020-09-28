@@ -13,7 +13,7 @@ function calc() {
 
     console.log(avgmin, avgmax);
 
-    document.getElementById('bdy').innerHTML = '<div id="marks">your marks for each subject will be in the range:min = <span id="min"> avgmin </span> to max = <span id="max">avgmax</span></div>'
+    document.getElementById('bdy').innerHTML = '<div id="marks" class="text-center font-weight-bold pt-5 h3" >your marks for each subject will be in the range:min = <span id="min"> avgmin </span> to max = <span id="max">avgmax</span></div>'
 
     document.getElementById('min').innerHTML = avgmin
     document.getElementById('max').innerHTML = avgmax
